@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+<html>
+
+  <!-- header -->
+  <head>
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Voltaire|IM+Fell+Double+Pica+SC' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Tabitha Jarvis</title>
+  </head>
+
+  <body>
+    <!-- carousel -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand navbar-brand-text" href="/">Jarvis - Software Engineer</a>
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="nav navbar-nav pull-right">
+            <li id="home" class="menu-btn"><a href="/">Home</a></li>
+
+            <li id="games" class="dropdown menu-btn">
+              <a class="dropdown-toggle" href="/professional">
+                Professional
+              </a>
+              <ul class="dropdown-menu" id="dropdown-menu">
+                <li><a href="/resume">Resume</a></li>
+                <li><a href="/projects">Projects</a></li>
+              </ul>
+            </li>
+
+            <li id="news" class="menu-btn"><a href="/news">News</a></li>
+
+            <li id="about" class="menu-btn"><a href="/about">About</a></li>
+
+            <li id="contact" class="menu-btn"><a href="/contact">Contact</a></li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+      <script>$('#home').addClass('active');</script>
+      <div class="visible-sm-block visible-md-block visible-lg-block container">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="10000">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <a href="/resume" class="item active">
+              <img src="images/resume.jpg" alt="Resume">
+              <div class="carousel-caption carousel-text banner-text">
+                <h2>Resume</h2>
+              </div>
+            </a>
+
+            <a href="/projects" class="item">
+              <img src="images/projects.jpg" alt="Projects">
+              <div class="carousel-caption carousel-text banner-text">
+                <h2>Projects</h2>
+              </div>
+            </a>
+
+            <a href="/About" class="item">
+              <img src="images/about.jpg" alt="About">
+              <div class="carousel-caption carousel-text banner-text">
+                <h2>About</h2>
+              </div>
+            </a>
+          </div>
+
+          <!-- Left and Right controls -->
+          <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+
+    <!--content-->
+    <div class="container content">
+      <div class="col-md-4">
+        <img src="images/logo.png">
+      </div>
+      <div class="col-md-8 text-muted">
+        <p>In ac ipsum quis turpis adipiscing commodo. <em>Mauris fermentum quam</em> in risus eleifend fringilla. Aliquam placerat, ipsum sit amet cursus rhoncus, augue mi tincidunt erat, et consequat velit massa a velit. Cras eleifend lectus nec diam ornare, eu placerat mi ultricies. Etiam tempor iaculis feugiat. Ut tincidunt tempus libero non convallis. Morbi consequat eros eget elit porta porta. Curabitur placerat eros dui, vitae lobortis sapien laoreet ac. Maecenas a lacus diam. Morbi ante lectus, ornare sed suscipit at, tempus elementum purus. Suspendisse sodales hendrerit pharetra. Integer odio risus, convallis eu egestas ad, venatis nec leo. ac ipsum quis turpis adipiscing commodo. <em>Mauris fermentum quam</em> in risus eleifend fringilla. <a href="#">Aliquam placerat</a>, ipsum sit amet cursus rhoncus, augue mi tincidunt erat, et consequat velit massa a velit. Cras eleifend lectus nec diam ornare, eu placerat mi ultricies. Etiam tempor iaculis feugiat. Ut tincidunt tempus libero non convallis. Morbi consequat eros eget elit porta porta. Curabitur placerat eros dui, vitae lobortis sapien laoreet ac. Maecenas a lacus diam. Morbi ante lectus, ornare sed suscipit at, tempus elementum purus. Suspendisse sodales hendrerit pharetra. Integer odio risus, convallis eu egestas ac, venenatis nec leo.
+        In ac ips, augue mi tincidunt erat, et consequat velit massa a velit. Cras eleifend lectus nec diam ornare, eu placerat mi ultricies. Etiam tempor iaculis feugiat. Ut tincidunt tempus libero non convallis. Morbi consequat eros eget elit porta porta. Curabitur placerat eros dui, vitae lobortis sapien laoreet ac. Maecenas a lacus diam. Morbi ante lectus, ornare sed suscipit at, tempus elementum purus. Suspendisse sodales hendrerit pharetra. Integer odio risus, convallis eu egestas ad, venatis nec leo. ac ipsum quis turpis adipiscing commodo. <em>Mauris fermentum quam</em> in risus eleifend fringilla. <a href="#">Aliquam placerat</a>, ipsum sit amet cursus rhoncus, augue mi tincidunt erat, et consequat velit massa a velit. Cras eleifend lectus nec diam ornare, eu placerat mi ultricies. Etiam tempor iaculis feugiat. Ut tincidunt tempus libero non convallis. Morbi consequat eros eget elit porta porta. Curabitur placerat eros dui, vitae lobortis sapien laoreet ac. Maecenas a lacus diam. Morbi ante lectus, ornare sed suscipit at, tempus elementum purus. Suspendisse sodales hendrerit pharetra. Integer odio risus, convallis eu egestas ac, venenatis nec leo.
+        In ac ipsum quis turpis adipiscing commodo. Aliquam placerat, ipsum sit amet cursus rhoncus, augue mi tincidunt erat, et consequat velit massa a velit. Cras eleifend lectus nec diam ornare, eu placerat mi ultricies. Etiam tempor iaculis feugiat. Ut tincidunt tempus libero non convallis. Morbi consequat eros eget elit porta porta. Curabitur placerat eros dui, vitae lobortis sapien laoreet ac. Maecenas a lacus diam. Morbi ante lectus, ornare sed suscipit at, tempus elementum purus. Suspendisse sodales hendrerit pharetra. Integer odio risus, convallis eu egestas ad, venatis nec leo. ac ipsum quis turpis adipiscing commodo. <em>Mauris fermentum quam</em> in risus eleifend fringilla. <a href="#">Aliquam placerat</a>, ipsum sit amet cursus rhoncus, augue mi tincidunt erat, et consequat velit massa a velit. Cras eleifend lectus nec diam ornare, eu placerat mi ultricies. Etiam tempor iaculis feugiat. Ut tincidunt tempus libero non convallis. Morbi consequat eros eget elit porta porta. Curabitur placerat eros dui, vitae lobortis sapien laoreet ac. Maecenas a lacus diam. Morbi ante lectus, ornare sed suscipit at, tempus elementum purus. Suspendisse sodales hendrerit pharetra. Integer odio risus, convallis eu egestas ac, venenatis nec leo.
+        In ac ipsum quis turpis adipiscing commodo. <em>Mauris fermentum quam</em> in risus eleifend fringilla. Aliquam placerat, ipsum sit amet cursus rhoncus, augue mi tincidunt erat, et consequat velit massa a velit. Cras eleifend lectus nec diam ornare, eu placerat mi ultricies. Etiam tempor iaculis feugiat. Ut tincidunt tempus libero non convallis. Morbi consequat eros eget elit porta porta. Curabitur placerat eros dui, vitae lobortis sapien laoreet ac. Maecenas a lacus diam. Morbi ante lectus, ornare sed suscipit at, tempus elementum purus. Suspendisse sodales hendrerit pharetra. Integer odio risus, convallis eu egestas ad, venatis nec leo. ac ipsum quis turpis adipiscing commodo. <em>Mauris fermentum quam</em> in risus eleifend fringilla. <a href="#">Aliquam placerat</a>, ipsum sit amet cursus rhoncus, augue mi tincidunt erat, et consequat velit massa a velit. Cras eleifend lectus nec diam ornare, eu placerat mi ultricies. Etiam tempor iaculis feugiat. Ut tincidunt tempus libero non convallis. Morbi consequat eros eget elit porta porta. Curabitur placerat eros dui, vitae lobortis sapien laoreet ac. Maecenas a lacus diam. Morbi ante lectus, ornare sed suscipit at, tempus elementum purus. Suspendisse sodales hendrerit pharetra. Integer odio risus, convallis eu egestas ac, venenatis nec leo.
+        In ac ipsum quis turpis adipiscing fringilla. Aliquam placerat, ipsum sit amet cursus rhoncus, augue mi tincidunt erat, et consequat velit massa a velit. Cras eleifend lectus nec diam ornare, eu placerat mi ultricies. Etiam tempor iaculis feugiat. Ut tincidunt tempus libero non convallis. Morbi consequat eros eget elit porta porta. Curabitur placerat eros dui, vitae lobortis sapien laoreet ac. Maecenas a lacus diam. Morbi ante lectus, ornare sed suscipit at, tempus elementum purus. Suspendisse sodales hendrerit pharetra. Integer odio risus, convallis eu egestas ad, venatis nec leo. ac ipsum quis turpis adipiscing commodo. <em>Mauris fermentum quam</em> in risus eleifend fringilla. <a href="#">Aliquam placerat</a>, ipsum sit amet cursus rhoncus, augue mi tincidunt erat, et consequat velit massa a velit. Cras eleifend lectus nec diam ornare, eu placerat mi ultricies. Etiam tempor iaculis feugiat. Ut tincidunt tempus libero non convallis. Morbi consequat eros eget elit porta porta. Curabitur placerat eros dui, vitae lobortis sapien laoreet ac. Maecenas a lacus diam. Morbi ante lectus, ornare sed suscipit at, tempus elementum purus. Suspendisse sodales hendrerit pharetra. Integer odio risus, convallis eu egestas ac, venenatis nec leo.
+        In ac ipsum quis turpis adipiscing commodo. <em>Mauris fermentum quam</em> in risus eleifend fringilla. Aliquam placerat, ipsum sit amet cursus rhoncus, augue mi tincidunt erat, et consequat velit massa a velit. Cras eleifend lectus nec diam ornare, eu placerat mi ultricies. Etiam tempor iaculis feugiat. Ut tincidunt tempus libero non convallis. Morbi consequat eros eget elit porta porta. Curabitur placerat eros dui, vitae lobortis sapien laoreet ac. Maecenas a lacus diam. Morbi ante lectus, ornare sed suscipit at, tempus elementum purus. Suspendisse sodales hendrerit pharetra. Integer odio risus, convallis eu egestas ad, venatis nec leo. ac ipsum quis turpis adipiscing commodo. <em>Mauris fermentum quam</em> in risus eleifend fringilla. <a href="#">Aliquam placerat</a>, ipsum sit amet cursus rhoncus, augue mi tincidunt erat, et consequat velit massa a velit. Cras eleifend lectus nec diam ornare, eu placerat mi ultricies. Etiam tempor iaculis feugiat. Ut tincidunt tempus libero non convallis. Morbi consequat eros eget elit porta porta. Curabitur placerat eros dui, vitae lobortis sapien laoreet ac. Maecenas a lacus diam. Morbi ante lectus, ornare sed suscipit at, tempus elementum purus. Suspendisse sodales hendrerit pharetra. Integer odio risus, convallis eu egestas ac, venenatis nec leo.
+        In ac ipsum quis augue mi tincidunt erat, et consequat velit massa a velit. Cras eleifend lectus nec diam ornare, eu placerat mi ultricies. Etiam tempor iaculis feugiat. Ut tincidunt tempus libero non convallis. Morbi consequat eros eget elit porta porta. Curabitur placerat eros dui, vitae lobortis sapien laoreet ac. Maecenas a lacus diam. Morbi ante lectus, ornare sed suscipit at, tempus elementum purus. Suspendisse sodales hendrerit pharetra. Integer odio risus, convallis eu egestas ad, venatis nec leo. ac ipsum quis turpis adipiscing commodo. <em>Mauris fermentum quam</em> in risus eleifend fringilla. <a href="#">Aliquam placerat</a>, ipsum sit amet cursus rhoncus, augue mi tincidunt erat, et consequat velit massa a velit. Cras eleifend lectus nec diam ornare, eu placerat mi ultricies. Etiam tempor iaculis feugiat. Ut tincidunt tempus libero non convallis. Morbi consequat eros eget elit porta porta. Curabitur placerat eros dui, vitae lobortis sapien laoreet ac. Maecenas a lacus diam. Morbi ante lectus, ornare sed suscipit at, tempus elementum purus. Suspendisse sodales hendrerit pharetra. Integer odio risus, convallis eu egestas ac, venenatis nec leo.
+        In tincidunt erat, et consequat velit massa a velit. Cras eleifend lectus nec diam ornare, eu placerat mi ultricies. Etiam tempor iaculis feugiat. Ut tincidunt tempus libero non convallis. Morbi consequat eros eget elit porta porta. Curabitur placerat eros dui, vitae lobortis sapien laoreet ac. Maecenas a lacus diam. Morbi ante lectus, ornare sed suscipit at, tempus elementum purus. Suspendisse sodales hendrerit pharetra. Integer odio risus, convallis eu egestas ad, venatis nec leo. ac ipsum quis turpis adipiscing commodo. <em>Mauris fermentum quam</em> in risus eleifend fringilla. <a href="#">Aliquam placerat</a>, ipsum sit amet cursus rhoncus, augue mi tincidunt erat, et consequat velit massa a velit. Cras eleifend lectus nec diam ornare, eu placerat mi ultricies. Etiam tempor iaculis feugiat. Ut tincidunt tempus libero non convallis. Morbi consequat eros eget elit porta porta. Curabitur placerat eros dui, vitae lobortis sapien laoreet ac. Maecenas a lacus diam. Morbi ante lectus, ornare sed suscipit at, tempus elementum purus. Suspendisse sodales hendrerit pharetra. Integer odio risus, convallis eu egestas ac, venenatis nec leo.
+        <em>Mauris fermentum quam</em> in risus eleifend fringilla. Aliquam placerat, ipsum sit amet cursus rhoncus, augue mi tincidunt erat, et consequat velit massa a velit. Cras eleifend lectus nec diam ornare, eu placerat mi ultricies. Etiam tempor iaculis feugiat. Ut tincidunt tempus libero non convallis. Morbi consequat eros eget elit porta porta. Curabitur placerat eros dui, vitae lobortis sapien laoreet ac. Maecenas a lacus diam. Morbi ante lectus, ornare sed suscipit at, tempus elementum purus. Suspendisse sodales hendrerit pharetra. Integer odio risus, convallis eu egestas ad, venatis nec leo. ac ipsum quis turpis adipiscing commodo. <em>Mauris fermentum quam</em> in risus eleifend fringilla. <a href="#">Aliquam placerat</a>, ipsum sit amet cursus rhoncus, augue mi tincidunt erat, et consequat velit massa a velit. Cras eleifend lectus nec diam ornare, eu placerat mi ultricies. Etiam tempor iaculis feugiat. Ut tincidunt tempus libero non convallis. Morbi consequat eros eget elit porta porta. Curabitur placerat eros dui, vitae lobortis sapien laoreet ac. Maecenas a lacus diam. Morbi ante lectus, ornare sed suscipit at, tempus elementum purus. Suspendisse sodales hendrerit pharetra. Integer odio risus, convallis eu egestas ac, venenatis nec leo.
+      </p>
+      </div>
+    </div>
+
+    <!--footer-->
+    <div class="container-fluid footer">
+      <div class="row">
+      <div class="col-md-3"></div>
+      <div class="col-md-6">
+        <h3>Contact Me</h3>
+        <h4><a href="mailto:tabithajjarvis@gmail.com" target="_top">tabithajjarvis@gmail.com</a></h4>
+      </div>
+      <div class="col-md-3"></div>
+      </div>
+    </div>
+  </body>
+</html>
