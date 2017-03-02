@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+
+<html>
+
+  <!-- header -->
+  <head>
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Voltaire|IM+Fell+Double+Pica+SC' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Tabitha Jarvis</title>
+  </head>
+
+  <body>
+    <!-- menu -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand navbar-brand-text" href="index.html">Tabitha Jarvis : Software Engineer</a>
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="nav navbar-nav pull-right">
+            <li id="home" class="menu-btn"><a href="index.html">Home</a></li>
+
+            <li id="professional" class="dropdown menu-btn">
+              <a class="dropdown-toggle" href="professional.html">
+                Professional
+              </a>
+              <ul class="dropdown-menu" id="dropdown-menu">
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="projects.html">Projects</a></li>
+              </ul>
+            </li>
+
+            <li id="about" class="menu-btn"><a href="about.html">About</a></li>
+
+            <li id="contact" class="menu-btn"><a href="contact.html">Contact</a></li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Highlighting Contact button in menu -->
+    <script>$('#contact').addClass('active');</script>
+
+    <!-- carousel -->
+      <div class="visible-sm-block visible-md-block visible-lg-block container">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="10000">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <a href="/resume" class="item active">
+              <img src="images/softwareengineering1.jpg" alt="Resume" class="carousel-image">
+              <div class="carousel-caption carousel-text banner-text">
+                <h2>Resume</h2>
+              </div>
+            </a>
+
+            <a href="/projects" class="item">
+              <img src="images/softwareengineering2.jpg" alt="Projects" class="carousel-image">
+              <div class="carousel-caption carousel-text banner-text">
+                <h2>Projects</h2>
+              </div>
+            </a>
+
+            <a href="/About" class="item">
+              <img src="images/about1.jpg" alt="About" class="carousel-image">
+              <div class="carousel-caption carousel-text banner-text">
+                <h2>About</h2>
+              </div>
+            </a>
+          </div>
+
+          <!-- Left and Right controls -->
+          <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+
+
+      <!--content-->
+      <div class="container content">
+        <div class="col-md-4">
+          <h1>Tabitha Jarvis</h1>
+          <h2>Software Engineer</h2>
+        </div>
+
+        <div class="col-md-8">
+          <div class="vert-line visible-md-block visible-lg-block"></div>
+          <div class="horiz-line visible-xs-block visible-sm-block"></div>
+          <h4>
+            Lorem ipsum
+          </h4>
+      </div>
+    </div>
+
+
+      <!--footer-->
+      <div class="container-fluid footer">
+        <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+          <h3>Contact Me</h3>
+          <h4><a href="mailto:tabithajjarvis@gmail.com" target="_top">tabithajjarvis@gmail.com</a></h4>
+        </div>
+        <div class="col-md-3"></div>
+        </div>
+      </div>
+    </body>
+  </html>
